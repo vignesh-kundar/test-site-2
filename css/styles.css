@@ -1,0 +1,63 @@
+body {
+  margin-top: 0;
+  background-color: #faf1e6;
+  text-align: center;
+}
+hr {
+  /*visibility: hidden; */
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 20%;
+    border: 0;
+    height: 1px;
+    background-color: #f55c47;
+      /*background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));*/
+}
+hr:after {
+    background: #fff;
+    content: '🌟';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.first-p {
+  margin-top: 0;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+}
+
+h2{font-family: 'Lobster', cursive;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+}
+.bottom-cloud{
+  position: absolute;
+}
+.top-cloud{
+  position: absolute;
+  top: 100px;
+  right: 550px;
+}
+.top-container {
+  width: 100%;
+}
+
+.name {
+  margin-top: 200px;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.skill-img{
+  width: 200px;
+  height: 200px;
+  margin: 0 50px; 
+}
